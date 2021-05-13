@@ -1,0 +1,52 @@
+{
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "NarutoDark",
+    "window.zoomLevel": 1,
+
+
+    "kite.showWelcomeNotificationOnStartup": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft",
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.commandLineModeKeyBindingsNonRecursive": [
+    ],
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "typescript.tsdk": "",
+
+    "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-a>": false,
+    // VS Code search in file
+    "<C-f>": false,
+    // VS Code new marker @ next occurence
+    "<C-d>": false,
+    // Copy
+    // Cut
+    "<C-x>": false,
+    // Paste
+    "<C-v>": false,
+    "C-s": false,
+},
+"vim.insertModeKeyBindings": [
+        // In insert mode jj to escape
+        {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+"vim.visualModeKeyBindings": [
+        // In visual mode i goes to insert mode
+        {
+        "before": ["i"],
+        "after": ["<Esc>", "i"]
+        }
+    ],
+    "editor.lineNumbers": "off",
+}
