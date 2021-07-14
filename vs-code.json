@@ -1,7 +1,6 @@
 {
     "explorer.confirmDelete": false,
     "workbench.colorTheme": "NarutoDark",
-    "window.zoomLevel": 1,
 
 
     "kite.showWelcomeNotificationOnStartup": false,
@@ -12,12 +11,9 @@
     "vim.useCtrlKeys": true,
     "vim.commandLineModeKeyBindingsNonRecursive": [
     ],
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "typescript.tsdk": "",
 
     "vim.handleKeys": {
@@ -48,5 +44,8 @@
         "after": ["<Esc>", "i"]
         }
     ],
-    "editor.lineNumbers": "off",
+    // "editor.lineNumbers": "off",
+    "ponicode.token": "d949df55-bfbf-4755-8b8b-88210556651d",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
 }

@@ -134,13 +134,45 @@ alias home="cd"
 alias start="code ."
 alias finish="clear && exit"
 alias rest="poweroff"
-alias upgrade="sudo pacman -Syu"
+alias upgrade="sudo pacman -Sy"
 alias python="python3"
 alias Amin="cd /mnt/762af900-5e3c-4ea0-aae0-092233720e98/Desktop/Amin"
 alias showme="xdg-open ."
+alias tm="sudo teamviewer --daemon start"
+alias cp="cd /mnt/762af900-5e3c-4ea0-aae0-092233720e98/Desktop/learning/cpp_practice"
+alias hacks="cd /mnt/762af900-5e3c-4ea0-aae0-092233720e98/Desktop/hacks"
+
+alias csharp="cd /mnt/762af900-5e3c-4ea0-aae0-092233720e98/Desktop/learning/c_sharp"
+alias ds="jupyter notebook --notebook-dir=/mnt/762af900-5e3c-4ea0-aae0-092233720e98"
+alias start_ds="anaconda-navigator"
+alias deliveroff_ssh="ssh root@62.171.142.225"
+alias run="python manage.py runserver"
+alias migrate="python manage.py migrate"
+alias migrations="python manage.py makemigrations"
 # end of aliases
 
 # zsh-autosuggestion stuff...
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
-# zsh-autosuggestion stuff ends here
+# zsh autosuggestion stuff end
+
+# bind the shell to vim
+#bindkey -v
+#bindkey -M viins 'jj' vi-cmd-mode
+# end bind key
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/hacku/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/hacku/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/hacku/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/hacku/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
