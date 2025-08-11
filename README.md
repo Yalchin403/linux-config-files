@@ -1,1 +1,1 @@
-# Almost all of my configuration files in case I become distrohopper tho I don't think I will leave arch
+# Some of the well known config files (unix based) to speed up setting up new OS setup.
